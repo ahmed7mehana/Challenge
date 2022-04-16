@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 0;
+    margin: 0;}
+    
+    body{
+        BACKGROUND-COLOR: #dff0ff;
+       
+    }
+    .contianer{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        justify-items: center;
+    }
+     .background{
+        z-index: 900;
+        width: 100%;
+        height: 68PX;
+
+     }
+     .BAC-CONT{
+        HEIGHT: fit-content;
+        width: min-content;
+        background-color: rgb(255, 255, 255);
+        border-radius: 15PX;
+        top: 10%;
+        display: grid;
+        margin-left: -100;
+        grid-template-rows: repeat(auto-fit,minmax(183PX,1fr));
+        GAP: 8PX;
+        MARGIN: auto;
+     }
+   .IMG{
+    width: -webkit-fill-available;
+    border-radius: 15PX 10PX 0PX 0;
+    left: 0%;
+    top: 0%;
+    margin-left: -100;
+    background-color: aliceblue;
+    }
+    .BAC-CONT .HH{
+        font-size: 28PX;
+        font-family: sans-serif;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    
+  .BAC-CONT .PP{
+        font-size: 15PX;
+        font-family: sans-serif;
+        line-height: 1.5;
+        width: 75%;
+        margin-left: 50PX;
+        margin-top: 22PX;
+        TEXT-ALIGN: center;
+
+    }
+ .BAC-CONT .plan{
+    background-color: #d6e1ff47;
+    width: 350PX;
+    height: 90PX;
+    MARGIN: 30PX auto;
+    display: flex;
+    border-radius: 15PX 15PX 15PX 15PX;
+    align-items: center;
+    justify-content: space-around;
+ }
+ .BAC-CONT .plan .text{
+     font-family:sans-serif;
+     margin-left: -50PX;
+    display: flex;
+    flex-direction: column;
+}
+.BAC-CONT .plan a{
+    text-decoration: none;
+    font-family:sans-serif;
+    font-size: 18PX;
+    COLOR: #382ae1a1;
+}
+
+ .BAC-CONT .plan img{
+     width:50PX;
+     font-size: 5PX;
+     height: 50PX;
+ }
+
+.BAC-CONT .pay{
+       font-family: sans-serif;
+       font-size: 18PX;
+    background-color: rgb(56 42 225 / 63%);
+       text-align: center;
+       HEIGHT: 50PX;
+       WIDTH: 80%;
+       MARGIN: auto;
+       BORDER-RADIUS: 10PX;
+}
+.BAC-CONT .pay a{
+    text-decoration: none;
+    COLOR: aliceblue;
+    line-height: 50px;
+}
+.BAC-CONT .can a{
+    JUSTIFY-CONTENT: center;
+    text-decoration: none;
+    DISPLAY: flex;
+    FONT-SIZE: large;
+    MARGIN-TOP: 15PX;
+}
+.attribution{
+    background-color: black;
+    position: RELATIVE;
+    text-align: center;
+    height: 28px;
+    width: 100%;
+    color: aliceblue;
+    margin-top: 1FR;
+    transform: translateY(30PX);
+    PADDING: 10P;
+    MARGIN-TOP: 39PX;
+}
+       
+.attribution a{
+    text-decoration: none;
+    color: rgb(47, 134, 209);
+    line-height: 30px;
+}
